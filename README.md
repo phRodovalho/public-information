@@ -6,4 +6,4 @@ pt-br > Projeto está sendo pautado sobe Objetivos de Desenvolvimento Sustentáv
 
 Database modeling:
 
-![Alt text](https://github.com/phRodovalho/public-information/blob/main/public_information_DER_vs3.PNG)
+![Alt text](https://github.com/phRodovalho/public-information/blob/main/public_information_DER.PNG)

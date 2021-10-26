@@ -26,7 +26,7 @@
                             ?>
                      </ul>
                  </li>
-                 <li><a href="suggestion.php">Suggestions</a></li>
+                 <li><a href="suggestion.php">Suggestion</a></li>
                  <li><a href="about.php">About us</a></li>
              </ul>
              <ul class="nav navbar-nav navbar-right">

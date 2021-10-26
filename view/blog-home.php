@@ -12,8 +12,8 @@
     require_once("../model/post.php");
     require_once("../model/banco.php");
 
-    if(!isset($_SESSION['idUser'])){
-      echo '  <div class="container">
+    if (!isset($_SESSION['idUser'])) {
+        echo '  <div class="container">
         <div class="panel panel-default text center">
             <div class="panel-body">
             <h3>To access the blog you need to login or create an account</h3>
@@ -24,7 +24,7 @@
         exit();
     }
     ?>
-    
+
 
     <div class="container">
         <div class="row">
@@ -150,8 +150,9 @@
                 </div>
                 <div class="card text-center">
                     <h3>SUGGESTION</h3>
-                    <h5 class="text-justify"><p>Suggest new access points to the library and laboratories in your region, or suggestions for improvements to the site, praise and complaints</p></h5>
                     <div class="panel panel-default">
+                        <p class="text-justify bg-success">Suggest new access points to the library and laboratories in your region, or suggestions for improvements to the site, praise and complaints</p>
+                        
                         <div class=" panel-body">
                             <a href="suggestion.php">
                                 <button class="btn btn-block btn-success btn-md" style="padding:0px">I want to suggest</button>
@@ -162,18 +163,12 @@
                 <div class="card text-center">
                     <h2>ABOUT US</h2>
                     <div class="panel panel-default">
-                        <p class="bg-success">We develop this page with great care for the best user experience! <b>Follow us</b></p>
+                        <p class="bg-success">We develop this page with great care for the best user experience!</p>
+
                         <div class=" panel-body">
-                            <div class="row">
-                                <a href="https://www.linkedin.com/in/phelipe-rodovalho-ufu/">
-                                    <img class="imag-responsive img-circle " src="img/ph.jpg" style="width: 60%; ">
-                                </a>
-                            </div>
-                            <div class="row" style="margin-top: 10px;">
-                                <a href="https://www.linkedin.com/in/g%C3%A9ssica-santos-47b7911b3/">
-                                    <img class="imag-responsive img-circle " src="img/gess.jpg" style="width: 60%; ">
-                                </a>
-                            </div>
+                            <a href="about.php">
+                                <button class="btn btn-block btn-success btn-md" style="padding:0px">Follow us</button>
+                            </a>
                         </div>
                     </div>
                 </div>

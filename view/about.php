@@ -14,12 +14,10 @@
     <div class="container panel panel-default">
         <div class="panel-body">
             <div class="jumbotron">
-                <h2 class="display-3 text-center">Quem Somos</h2>
+                <h2 class="display-3 text-center">About Us</h2>
                 <h6 class="tagh6">
                     <br></br>
-                    Este site foi desenvolvido entre os alunos da Universidade Federal de Uberlândia e a Middle Tennessee State University,
-                    tem como objetivo ajudar a
-                    resolver os 11 objetivos de desenvolvimento sustentável da ONU reunindo informações básicas sobre os direitos de todo cidadão.
+                    This website is being developed by a team composed of students from the Federal University of Uberlândia and the Middle Tennessee State University, aiming at helping to solve the UN's 11 sustainable development goals by collecting basic information about the rights of each citizen.
                 </h6>
 
             </div>
@@ -53,6 +51,72 @@
 
                             </div>
 
+                        </div>
+                        <div class="row">
+                            <!--  Coluna media mg, lg grande, sm smal-->
+                            <div class="col-md-6">
+                                <img src="img/img_avatar.png" width="50%" class="img-circle">
+                                <br>
+                                <p><b>Josalyn Mandujano</b></p>
+                                <div class="btn-group">
+                                    <a class="btn btn-primary" href="" target="_blank">Github</a>
+                                    <a class="btn btn-primary" href="" target="_blank">Linkedin</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <img src="img/img_avatar.png" width="50%" class="img-circle">
+                                <br>
+                                <p><b>Karmen Freeman</b></p>
+                                <div class="btn-group">
+                                    <a class="btn btn-primary" href="" target="_blank">Github</a>
+                                    <a class="btn btn-primary" href="" target="_blank">Linkedin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--  Coluna media mg, lg grande, sm smal-->
+                            <div class="col-md-6">
+                                <img src="img/img_avatar.png" width="50%" class="img-circle">
+                                <br>
+                                <p><b>Kasie Barber</b></p>
+                                <div class="btn-group">
+                                    <a class="btn btn-primary" href="" target="_blank">Github</a>
+                                    <a class="btn btn-primary" href="" target="_blank">Linkedin</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <img src="img/img_avatar.png" width="50%" class="img-circle">
+                                <br>
+                                <p><b>Hayden Rumpf</b></p>
+                                <div class="btn-group">
+                                    <a class="btn btn-primary" href="" target="_blank">Github</a>
+                                    <a class="btn btn-primary" href="" target="_blank">Linkedin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--  Coluna media mg, lg grande, sm smal-->
+                            <div class="col-md-6">
+                                <img src="img/img_avatar.png" width="50%" class="img-circle">
+                                <br>
+                                <p><b>Christopher Andrews</b></p>
+                                <div class="btn-group">
+                                    <a class="btn btn-primary" href="" target="_blank">Github</a>
+                                    <a class="btn btn-primary" href="" target="_blank">Linkedin</a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <img src="img/img_avatar.png" width="50%" class="img-circle">
+                                <br>
+                                <p><b>Michael A. Erskine</b></p>
+                                <div class="btn-group">
+                                    <a class="btn btn-primary" href="" target="_blank">Github</a>
+                                    <a class="btn btn-primary" href="" target="_blank">Linkedin</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

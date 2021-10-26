@@ -114,16 +114,16 @@
                                 <div class="form-group col-md-3">
                                     <label>Internet Access</label>
                                     <select required name="internetA" class="form-control">
-                                        <option>Select Internet Access </option>
-                                        <option value="P">Y - Yes</option>
-                                        <option value="A">N - No</option>
-                                        <option value="IDK">IDK - I don't know</option>
+                                        <option value="">Select Internet Access </option>
+                                        <option value="Y">Y - Yes</option>
+                                        <option value="N">N - No</option>
+                                        <option value="I">IDK - I don't know</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-3">
                                     <label>Type of Access Point</label>
                                     <select class="form-control" name="type" required>
-                                        <option>Select Type</option>
+                                        <option value="">Select Type</option>
                                         <?php
                                         $type = new Type();
                                         foreach ($type->listType() as $key => $line) { ?>
@@ -133,7 +133,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label>Description</label>
-                                    <textarea class="form-control" name="descrip" rows="3" placeholder="Write description, could be phone, user tips, landmarks"></textarea>
+                                    <textarea required class="form-control" name="descrip" rows="3" placeholder="Write description, could be phone, user tips, landmarks"></textarea>
                                 </div>
                             </div>
 
@@ -143,26 +143,26 @@
                                     <hr>
                                     <div class="form-group col-md-4">
                                         <label>Coutry</label>
-                                        <input type="text" class="form-control" name="txtCountry" placeholder="Country">
+                                        <input required type="text" class="form-control" name="txtCountry" placeholder="Country">
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label>State</label>
-                                        <input type="text" class="form-control" name="txtState" placeholder="State">
+                                        <input required type="text" class="form-control" name="txtState" placeholder="State">
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label>City</label>
-                                        <input type="text" class="form-control" name="txtCity" placeholder="City">
+                                        <input required type="text" class="form-control" name="txtCity" placeholder="City">
                                     </div>
                                 </div>
 
                                 <div class="form-row">
                                     <div class="form-group col-md-8">
                                         <label>Adress</label>
-                                        <input type="text" class="form-control" name="txtAdress" placeholder="Adress complete and number">
+                                        <input required type="text" class="form-control" name="txtAdress" placeholder="Adress complete and number">
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label>District</label>
-                                        <input type="text" class="form-control" name="txtDistrict" placeholder="District">
+                                        <input required type="text" class="form-control" name="txtDistrict" placeholder="District">
                                     </div>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@
                             <div class="form-row">
                                 <div class="form-group col-md-offset-5 ">
                                     <input type="hidden" value="1" name="pointOp">
-                                    <button class="btn btn-md btn-primary" type="submit">Finish and Save Access Point</button>
+                                    <button required class="btn btn-md btn-primary" type="submit">Finish and Save Access Point</button>
                                 </div>
                             </div>
                         </form>
@@ -195,7 +195,7 @@
                             </form>
                             <br>
                         </div>
-                        <table id="accessPoint2" class="display" style="width:98%">
+                        <table id="accessPoint2" class="display" style="width:90%">
                             <thead>
                                 <tr>
                                     <th>IdAccessPoint</th>

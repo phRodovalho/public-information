@@ -53,7 +53,7 @@
                         <label class="control-label col-sm-1" for="category">Category:</label>
                         <div class="col-sm-2">
                             <select class="form-control" name="category" required>
-                                <option>Select category</option>
+                                <option value="">Select category</option>
                                 <?php
                                 foreach ($categ->listCategory() as $key => $line) { ?>
                                     <option value="<?php echo $line['idcategory'] ?>"><?php echo $line['category'] ?></option>

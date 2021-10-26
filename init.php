@@ -8,7 +8,7 @@ date_default_timezone_set('America/Sao_Paulo');
 
 define('BD_SERVER','localhost');
 define('BD_USER','root');
-define('BD_PASSWORD','');
+define('BD_PASSWORD','santos1809');
 define('BD_DATABASE','public_information');
 
 ?>

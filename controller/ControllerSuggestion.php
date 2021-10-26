@@ -20,18 +20,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $adress = filter_input(INPUT_POST, "txtAdress", FILTER_SANITIZE_STRING);
     $district = filter_input(INPUT_POST, "txtDistrict", FILTER_SANITIZE_STRING);
 
-    $sug = new Suggestion();
-    $loc = new Locationn();
+    if ($desc != "") {
+        $sug = new Suggestion();
+        $loc = new Locationn();
 
-    $loc->set_country($country);
-    $loc->set_state($state);
-    $loc->set_city($city);
-    $loc->set_adress($adress);
-    $loc->set_district($district);
-    
-    $locId = $loc->insert($loc->getstate(), $loc->getcountry(), $loc->getcity(), $loc->getadress(), $loc->getdistrict());
-    if($locId != false){
-        $sug->insert($desc, $dt,$userId, $locId);
-        echo "<script type='text/javascript'>alert('Suggestion created successfully!');window.location.href = '../view/home.php';</script>";
-    }else echo "<script type='text/javascript'>alert('error ');window.location.href = '../view/home.php';</script>";
+        $loc->set_country($country);
+        $loc->set_state($state);
+        $loc->set_city($city);
+        $loc->set_adress($adress);
+        $loc->set_district($district);
+
+        $locId = $loc->insert($loc->getstate(), $loc->getcountry(), $loc->getcity(), $loc->getadress(), $loc->getdistrict());
+        if ($locId != false) {
+            $sug->insert($desc, $dt, $userId, $locId);
+            echo "<script type='text/javascript'>alert('Suggestion created successfully!');window.location.href = '../view/home.php';</script>";
+        } else echo "<script type='text/javascript'>alert('error ');window.location.href = '../view/home.php';</script>";
+    }else echo "<script type='text/javascript'>alert('error descrip empity or user not allowed');window.location.href = '../view/home.php';</script>";
 }

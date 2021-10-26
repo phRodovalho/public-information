@@ -34,7 +34,7 @@
             <div class="form-group">
                 <div class="form-row">
                     <label>Suggestion</label>
-                    <textarea class="form-control" name="suggestionDescrip" rows="3" placeholder="Text here your sugestion"></textarea>
+                    <textarea required class="form-control" name="suggestionDescrip" rows="3" placeholder="Text here your sugestion"></textarea>
                     <!--
                 pt-br: habilitando o campo de sugestão
                 en : enabling the sugestion field
@@ -44,7 +44,7 @@
             <div class="form-group">
                 <div class="form-row">
                     <hr>
-                    <h4>IF NEED, INSERT ADRESS</h4>
+                    <h4>If need, Insert Adress</h4>
                     <div class="form-group col-md-4">
                         <label>Coutry</label>
                         <input type="text" class="form-control" name="txtCountry" placeholder="Country">

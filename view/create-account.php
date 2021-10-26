@@ -28,12 +28,16 @@
                         <input required type="date" class="form-control" name="txtdate">
                     </div>
                     <div class="form-group col-md-3">
-                        <label>User Type</label>
+                        <label>Type of User </label>
+                        
                         <select required name="userType" class="form-control">
-                            <option value="P">Pattern User</option>
+                            <option value="P">Default User</option>
                             <option value="A">Administrator</option>
                             <option value="W">Blog Writer</option>
                         </select>
+                        <small class="text-muted">
+                        Here is to choose, for educational purposes, but in a real scenario the admin users would be registered directly in the database and the writer users would be invited by the admin
+                        </small>
                     </div>
                 </div>
 

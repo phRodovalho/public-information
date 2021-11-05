@@ -1,7 +1,10 @@
 <?php
 //metodos de envio para o banco com PDO
 require_once("banco.php");
-class Post
+
+
+
+class Post  
 {
     //pt-br iniciando a variavel de likes em 0
     //en-us starting the likes variable at 0
@@ -41,7 +44,7 @@ class Post
     }
     //pt-br Função que incrmenta o like
     //en-us Function that increments like
-    public function likePost(): int
+    public function likePost()
     {
         //pt-br se existir um post
         //en-us 

@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once("../model/suggestion.php");
+use PHPUnit\Framework\TestCase;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $desc = filter_input(INPUT_POST, "suggestionDescrip");
